@@ -1,0 +1,16 @@
+@startuml
+
+package sample <<Folder>>{
+package Nodes <<Folder>>{
+abstract class Node implements java.lang.Cloneable
+class Arrows extends Node
+class Begin extends Node
+class End extends Node
+class Solution extends Node
+class Operation extends Node
+}
+class Main extends javafx.application.Application
+class Controller implements javafx.fxml.Initializable
+}
+
+@enduml
