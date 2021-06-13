@@ -24,6 +24,10 @@
 ![5](https://user-images.githubusercontent.com/85245803/120652467-7c017a00-c488-11eb-9040-1e9d8a75be01.png)
 ![6](https://user-images.githubusercontent.com/85245803/120652470-7c017a00-c488-11eb-8a86-810ded585dc6.png)
 
+Работа программы при множественном выборе
+
+![8](https://user-images.githubusercontent.com/85245803/121801822-0b095180-cc42-11eb-9ac4-0e44bb1311a7.png)
+
 Работа кнопки "Очистить"
 
 ![7](https://user-images.githubusercontent.com/85245803/120652539-87ed3c00-c488-11eb-856f-20d5bc7052a0.png)
