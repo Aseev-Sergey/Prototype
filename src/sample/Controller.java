@@ -30,12 +30,12 @@ public class Controller implements Initializable {
         End end = new End();
         items = FXCollections.observableArrayList(begin, operation, solution, end);
         list.setItems(items);
-        list.getSelectionModel().setSelectionMode(SelectionMode.SINGLE);
+        list.getSelectionModel().setSelectionMode(SelectionMode.MULTIPLE);
     }
 
     public void addNode(MouseEvent mouseEvent) {
         GraphicsContext gc = canvas.getGraphicsContext2D();
-        list.getSelectionModel().setSelectionMode(SelectionMode.SINGLE);
+        list.getSelectionModel().setSelectionMode(SelectionMode.MULTIPLE);
         int index = list.getSelectionModel().getSelectedIndex();
         if ((index >= 0) && (index < list.getItems().size())) {
             Node new_figure = (Node) items.get(index).clone();

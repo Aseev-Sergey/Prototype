@@ -2,7 +2,6 @@ package sample.Nodes;
 
 import javafx.scene.canvas.GraphicsContext;
 import javafx.scene.paint.Color;
-import javafx.scene.text.Text;
 
 public abstract class Node implements Cloneable{
 
